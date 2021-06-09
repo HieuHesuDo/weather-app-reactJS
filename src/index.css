@@ -49,9 +49,14 @@ body {
   transition: 0.4s ease;
 }
 
+.app.fog {
+  background-image: url("./asset/fog.jpg");
+  transition: 0.4s ease;
+}
+
 main {
   width: 100%;
-  /* min-height: 100vh; */
+  height: 100%;
   padding: 25px;
   background-image: linear-gradient(
     to bottom,
@@ -111,7 +116,7 @@ main {
   position: relative;
   display: inline-block;
   margin: 30px auto;
-  background-color: rgb(255, 255, 255, 0.2);
+  /* background-color: rgb(255, 255, 255, 0.2); */
   border-radius: 16px;
 
   padding: 15px 25px;

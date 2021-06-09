@@ -67,6 +67,8 @@ function App() {
               ? "app sunny"
               : weather.weather[0].main === "Snow"
               ? "app snow"
+              : weather.weather[0].main === "Fog"
+              ? "app fog"
               : weather.weather[0].main === "Clear"
               ? "app clear"
               : ""
@@ -103,6 +105,8 @@ function App() {
                     ? "Trời Nắng"
                     : weather.weather[0].main === "Snow"
                     ? "Tuyết rơi"
+                    : weather.weather[0].main === "Fog"
+                    ? "Sương mù"
                     : weather.weather[0].main === "Clear"
                     ? "Trời quang"
                     : ""}
